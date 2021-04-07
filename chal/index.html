@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='nl'>
+	<head>
+		<meta charset="utf-8">
+		<title>Challenge3</title>
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+		<script src="scripts/api.js" defer></script> <!-- eigen js bestand -->
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+		<link href="https://www.googleapis.com/customsearch/v1?AIzaSyAemaec8dYlg5ihW49UF-iKajDq83Fu6oQ" rel="stylesheet"/>
+		<link href="http://openweathermap.org/img/wn/10d@2x.png" rel="stylesheet"> 
+
+		<link href="styles/api.css" rel="stylesheet" /> <!-- voor je eigen styling voor buiten de map-->
+	</head>
+	<body onload="startTime()">
+        <div class="topnav">
+            <a class="active" href="#home">SpaceX</a>
+			<a>Challenge 3: Klaar voor de landing</a>
+		</div>
+
+			<h1> We landen in New York, Central Park Zoo.🐒</h1>
+
+		<div id="txt" class="tekst"></div>
+				
+		<div class="w3-content w3-section">
+  			<img class="mySlides" src="images/NewYork1.jpeg" alt= 'new york' >
+  			<img class="mySlides" src="images/NewYork2.jpeg" alt= 'new york'>
+			<img class="mySlides" src="images/NewYork3.jpeg" alt= 'new york'>
+			<img class="mySlides" src="images/centralPark.jpeg" alt= 'central park'>
+		</div>
+		
+		<div id="weather"></div>
+		<div id="woorden">
+			<h2> Om te genieten van een echte Amerikaanse maaltijd hebben wij voor u de dichtsbijzijnde McDonalds gehightlight!</h2>
+		</div>
+		<div id="map"></div>
+		<div id="woorden"> </div>
+
+	</body>
+</html>
